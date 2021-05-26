@@ -1,0 +1,215 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .title {
+        font-size: 28px;
+    }
+    .promo {
+        &__header {
+            font-size: 40px;
+            line-height: 40px;
+        }
+        &__subheader {
+            margin-top: 16px;
+            font-size: 22px;
+            line-height: 22px;
+        }
+    }
+    .adventures {
+        padding: 70px 0px 70px 0px;
+        &__wrapper {
+            margin-top: 63px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .title {
+        font-size: 26px;
+    }
+    .promo {
+        min-height: 591px;
+        padding: 22px 10px 60px 15px;
+        &__wrapper {
+            margin-top: 50px;
+        }
+        &__header {
+            font-size: 35px;
+            line-height: 32px;
+        }
+        &__subheader {
+            font-size: 19px;
+            line-height: 15px;
+        }
+        &__link {
+            font-size: 15px;
+        }
+    }
+    .header {
+        &__phone {
+            font-size: 17px;
+        }
+    }
+    .consulte {
+        min-height: 629px;
+    }
+    .footer {
+        &__info {
+            width: 440px;
+            height: 260px;
+        }
+        &__addr {
+            font-size: 18px;
+        }
+        &__phone {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        min-width: 540px;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .button {
+        &_main {
+            width: 275px;
+            height: 45px;
+            font-size: 14px;
+        }
+    }
+    .header {
+        &__logo {
+            width: 220px;
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+    .adventures {
+        padding: 45px 0 45px 0;
+        &_subtitle {
+            font-size: 17px;
+        }
+        &_descr {
+            font-size: 13px;
+        }
+    }
+    .consulte {
+        min-height: 645px;
+        padding: 60px 0px 76px 12px
+    }
+    .carousel {
+        padding: 50px 0px;
+        &__inner {
+            width: 615px;
+            img {
+                width: 615px;
+            }
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 185px;
+        }
+        &__content {
+            &_active {
+                justify-content: space-around;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .promo {
+        &__header {
+            font-size: 32px;
+            line-height: 30px;
+        }
+        &__subheader {
+            font-size: 18px;
+            line-height: 14px;
+        }
+        &__icons {
+            margin-top: 60px;
+        }
+        &__icon {
+            width: 156px;
+            font-size: 13px;
+        }
+    }
+    .header {
+        &__logo {
+            width: 190px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 16px;
+            }
+        }
+        &__phone {
+            font-size: 15px;
+        }
+    }
+    .adventures {
+        padding: 40px 0px 40px 0px;
+        &_subtitle {
+            font-size: 16px;
+        }
+        &_item {
+            max-width: 200px;
+        }
+        &_wrapper {
+            margin-top: 62px;
+        }
+        &__icon {
+            width: 70px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 555px;
+            img {
+                width: 555px;
+            }
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 170px;
+            font-size: 16px;
+        }
+    }
+    .feed {
+        &__img {
+            width: 139px;
+            height: 139px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 420px;
+            height: 250px;
+        }
+        &__addr {
+            font-size: 15px ;
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+}
